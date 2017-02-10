@@ -4,5 +4,5 @@ Resources :
     Type : "AWS::EC2::VPC"
     Properties :
       CidrBlock : "192.168.0.0/24"
-      EnableDnsSupport : "true"
-      EnableDnsHostnames : "true"
+      EnableDnsSupport : true
+      EnableDnsHostnames : true
